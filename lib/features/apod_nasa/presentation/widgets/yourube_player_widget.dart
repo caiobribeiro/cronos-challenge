@@ -16,8 +16,8 @@ class _YourubePlayerWidgetState extends State<YourubePlayerWidget> {
     ytController = YoutubePlayerController(
       initialVideoId: YoutubePlayer.convertUrlToId(video.url!)!,
       flags: const YoutubePlayerFlags(
-          mute: false,
-          autoPlay: true,
+          mute: true,
+          autoPlay: false,
           disableDragSeek: true,
           loop: true,
           enableCaption: false),
