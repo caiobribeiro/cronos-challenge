@@ -1,6 +1,8 @@
+import 'package:cronos_challenge/features/apod_nasa/presentation/pages/todays_astronomy_picture_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Container(),
+      home: const TodayAstronomyPicturePage(),
     );
   }
 }
