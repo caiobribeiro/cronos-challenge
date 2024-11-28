@@ -36,7 +36,7 @@ class _TodayAstronomyPicturePageState extends State<TodayAstronomyPicturePage> {
             label: const Row(
               children: [
                 Text('Select by range'),
-                Icon(Icons.navigate_next),
+                Icon(Icons.calendar_month),
               ],
             ),
           ),
