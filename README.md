@@ -26,7 +26,7 @@ Developed in [Flutter].
 
 ## Presentation
 
-| [![IMAGE ALT TEXT HERE](./readme_assets/video-2024-11-20_13-55.png)](https://youtu.be/cVyekOuV38c)            
+ [![IMAGE ALT TEXT HERE](./readme_assets/2024-11-28_12-52.png)](https://youtu.be/kPs7f5uVzjA)            
 
 
 
