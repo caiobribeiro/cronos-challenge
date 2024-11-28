@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:cronos_challenge/core/resources/data_state.dart';
 import 'package:cronos_challenge/features/apod_nasa/data/data_source/astronomy_picture_api_service.dart';
 import 'package:cronos_challenge/features/apod_nasa/data/models/astronomy_picture_model.dart';
-import 'package:cronos_challenge/features/apod_nasa/domain/entities/astronomy_picture_entity.dart';
 import 'package:cronos_challenge/features/apod_nasa/domain/repository/apod_repository.dart';
 
 class AstronomyPicturesRepositoryImpl extends AstronomyPicturesRepository {
@@ -12,7 +11,7 @@ class AstronomyPicturesRepositoryImpl extends AstronomyPicturesRepository {
   AstronomyPicturesRepositoryImpl(this._astronomyPictureService);
 
   @override
-  Future<DataState<List<AstronomyPictureEntity>>> getAstronomyPictures({
+  Future<DataState<List<AstronomyPictureModel>>> getAstronomyPictures({
     required String startDate,
     required String endDate,
   }) async {
